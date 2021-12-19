@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Background */
+.wrapper {
+  width: 1170px;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  animation: animate 20s ease-in-out infinite;
+  background-size: cover;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    background-image: url(../img/1.jpg);
+  }
+  25% {
+    background-image: url(../img/7.jpg);
+  }
+  35% {
+    background-image: url(../img/3.jpg);
+  }
+  55% {
+    background-image: url(../img/2.jpg);
+  }
+  65% {
+    background-image: url(../img/6.jpg);
+  }
+  75% {
+    background-image: url(../img/4.jpg);
+  }
+}
+
+/* akhir background */
+
+/* awal Header */
+
+.header {
+  height: 100px;
+  width: 100%;
+  /* background-color: rgba(34, 49, 52, 0.8); */
+  position: fixed;
+  top: 30px;
+  z-index: 10;
+}
+
+.logo {
+  width: 200px;
+  margin-top: 35px;
+  margin-left: 200px;
+  color: white;
+  font-size: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: 75px;
+}
+
+.header-right a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  line-height: 100px;
+  padding: 0 30px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  /* background-color: rgba(255, 255, 255, 0.3); */
+  color: rgb(255, 255, 255, 0.3);
+}
+/* akhir header */
