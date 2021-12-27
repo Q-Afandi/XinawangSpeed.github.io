@@ -1,4 +1,6 @@
 https://q-afandi.github.io/XinawangSpeed.github.io/
+#
+#
 Company Profile
 Untuk website ini masih dalam tahap pengembangan jadi kedepannya saya akan melakukan update berupa :
 - penambahan animasi
